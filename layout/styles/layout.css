@@ -59,6 +59,13 @@
   z-index: 1000;
 }
 
+.mobile {
+  display: none;
+  position: absolute;
+  top: 80px;
+  right: 15px;
+}
+
 /* Page Intro --------------------------------------------------------------------------------------------------------------- */
 
 #pageintro {
@@ -1148,6 +1155,9 @@ table a, #comments a {
   .hoc {
     max-width: 978px;
   }
+  #mainav ul {
+    display: block;
+  }
 }
 
 /* Mobile Devices --------------------------------------------------------------------------------------------------------------- */
@@ -1184,6 +1194,9 @@ table a, #comments a {
   #copyright {}
   #copyright p:first-of-type {
     margin-bottom: 10px;
+  }
+  .mobile {
+    display: block;
   }
 }
 

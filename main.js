@@ -19,3 +19,15 @@
      headerNav.style.marginTop = "";
    }
  });
+
+ // MENU Mobile
+ var iconMenu = document.querySelector('.mobile');
+ var mainNav = document.querySelector('#mainav ul');
+
+ iconMenu.addEventListener('click', function() {
+   if (mainNav.style.display === "none") {
+     mainNav.style = "display : block";
+   } else {
+     mainNav.style = "display : none";
+   }
+ });
