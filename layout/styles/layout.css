@@ -859,6 +859,18 @@ input:focus, textarea:focus, *:required:focus {
   color: #FFFFFF;
 }
 
+#top-bg-img {
+  background-image: url('../../images/demo/backgrounds/01.png');
+}
+
+#wrapper-bg-img {
+  background-image: url('../../images/demo/backgrounds/03.png');
+}
+
+#wrapper2-bg-img {
+  background-image: url('../../images/demo/backgrounds/04.png');
+}
+
 /* Rows */
 
 .row0, .row0 a {
