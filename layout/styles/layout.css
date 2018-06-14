@@ -1089,6 +1089,31 @@ table a, #comments a {
   background-color: inherit;
 }
 
+/* SCROLL TO TOP */
+
+.scroll-to-top {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  background-color: #F7F7F7;
+  border: 2px solid #CF9C67;
+  border-radius: 50%;
+  margin-top: 90vh;
+  margin-left: 85vw;
+  z-index: 60;
+  text-align: center;
+  padding-top: 1vh;
+}
+
+.scroll-to-topImg {
+  width: 3vw;
+}
+
+.scroll-to-top:hover {
+  color: #F7F7F7;
+  background-color: #CF9C67;
+}
+
 /* ------------------------------------------------------------------------------------------------------------ */
 
 /* ------------------------------------------------------------------------------------------------------------ */
